@@ -1,7 +1,7 @@
 /* 1. Define the font */
 @font-face {
   font-family: 'MHCuteGhost';
-  src: url('https://ImNotASpy.github.io/spookyfont/MHCuteGhost_L.ttf') format('truetype');
+  src: url('https://imnotaspy.github.io/spookyfont/MHCuteGhost_L.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
