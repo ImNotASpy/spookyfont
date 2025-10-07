@@ -22,3 +22,11 @@ body, button, input, textarea, [class*="text"], [class*="title"], [class*="label
 code, pre, .hljs, .markup code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
 }
+/* Extra: Apply font to usernames and sidebar titles */
+[class*="username"], 
+[class*="name"], 
+[class*="title"], 
+[class*="header"], 
+[class*="channelName"] {
+  font-family: var(--font-primary) !important;
+}
