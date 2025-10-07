@@ -1,4 +1,3 @@
-/* 1. Define the font */
 @font-face {
   font-family: 'MHCuteGhost';
   src: url('https://imnotaspy.github.io/spookyfont/MHCuteGhost_L.ttf') format('truetype');
@@ -7,22 +6,19 @@
   font-display: swap;
 }
 
-/* 2. Tell Discord to use it */
 :root {
   --font-primary: 'MHCuteGhost', 'gg sans', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
   --font-display: 'MHCuteGhost', 'gg sans', 'Noto Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* 3. Apply to most UI text */
 body, button, input, textarea, [class*="text"], [class*="title"], [class*="label"] {
   font-family: var(--font-primary) !important;
 }
 
-/* 4. Keep code blocks monospace */
 code, pre, .hljs, .markup code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
 }
-/* Extra: Apply font to usernames and sidebar titles */
+
 [class*="username"], 
 [class*="name"], 
 [class*="title"], 
